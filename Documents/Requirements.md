@@ -1,8 +1,8 @@
 # Requirements Document
+FIFA MATCH TOOL
 
 ## 1 Introduction
-The introduction provides context for the project. Write a concise description of the software you will 
-develop and its target users. Be sure to cover what the software product will, and, if necessary, will not do.
+The Fifa Match Tool is an Android Application that will accept user input and determine what Fifa team is appropriate for them. The logic is primarily based on the Fifa Team Flow Chart.
 
 ### 1.1 Definitions and Acronyms
 List any project definitions and acronyms introduced to the project by this plan. Be sure and define all acronyms before their use.  If no acronyms or terms requiring special definition are used, this section can be left out.
