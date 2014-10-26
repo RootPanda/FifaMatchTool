@@ -10,9 +10,12 @@ List any project definitions and acronyms introduced to the project by this plan
 ## 2 User Requirements
 
 ### 2.1 Software Interfaces
+
 List all the external systems with which the software product interacts. These are external systems/libraries that you have to interact with.
 
 ### 2.2 User Interfaces
+The user will be asked a series of questions related to Fifa world cup teams. The user will have to provide an answer to an question and based on the response, it will generate a subsequence question to narrow down the proper fifa team. The user will have an option to go back to previous question and change their answer. 
+
 Specify the logical characteristics of each interface between the software product and its users. This is a description of how the system will interact with its users.  Note that this should *not* be a description of the UI (that belongs in the design document), but rather a high level discussion of how the user will interact with the product.
 
 ### 2.3 User Characteristics
