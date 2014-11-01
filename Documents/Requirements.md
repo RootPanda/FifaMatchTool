@@ -33,3 +33,4 @@ The application shall display the new question when the user select one of the a
 The application shall go to the start page if the system crashes
 The application shall give the same final country for the same sets of answers
 The application shall take no longer than 1 sec to display the answer or go to the subsequence question
+The application shall prevent the user from changing the questions
