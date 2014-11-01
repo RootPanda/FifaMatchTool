@@ -24,7 +24,7 @@ In general, the user does not require any deep specialization or technical exper
 ## 3 System Requirements
 
 ### 3.1 Functional Requirements
-The application shall go to the start page when the user open the apps
+The application shall go to the start page when the user open the apps. 
 The application shall have a restart button that will take the user to the main page
 The application shall have a back button that goes to the previous question page
 The application shall display the new question when the user select one of the answer
