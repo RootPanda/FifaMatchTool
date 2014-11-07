@@ -1,35 +1,38 @@
 # Design Document
+FIFA MATCH TOOL
 
 ## 1 Design Considerations
-Describe the issues that need to be addressed or resolved prior to or while completing the design, as well as issues that may influence the design process.
+The Fifa match tool must meet all the of the user and system requirements described in Requirements.md. In addition, the tool must closely align with the Fifa Team Flow Chart. 
 
 ### 1.1 Assumptions
-Describe any assumption, background, or dependencies of the software, its use, the operational environment, or significant project issues.
+- User has an Android smart phone
+- Phone is operating with OS version 4.0 and greater
 
 ### 1.2 Constraints
-Describe any constraints on the system that have a significant impact on the design of the system.
+- Developers are inexperienced Android developers
+- The program will not actaully be implemented
 
 ### 1.3 System Environment
-Describe the hardware and software that the system must operate in and interact with.
+- Android OS v4.0 and greater
 
 ## 2 Architectural Design
 The architecture provides the high-level design view of a system and provides a basis for more detailed design work. These subsections describe the top-level components of the system you are building and their relationships.
 
 ### 2.1 Overview
-This section provides a high level overview of the structural and functional decomposition of the system. The section should list the different components and concisely discuss the major responsibilities and roles such components must play.
+This section provides a high level overview of the structural and functional decomposition of the system. 
+
+This application consists of a simple display in a loop that waits for events from the user. In particular, it is a highly linear program with a few control flow statements that are branched depending on the user input. There is no custom data structures in this program.
 
 ### 2.2 Rationale
-This section discusses why you are using the architecture you have chosen.
+Since the program is very simple, a simple architecture is used.
 
 ### 2.3 Conceptual (or Logical) View
-This section should provide and describe a diagram that shows the various components and how they are connected. The conceptual view shows the logical/functional components of the system, where each component represents a cluster of related functionality.
+Please see diagram 2_3-ConceptualView.odg.
 
 ## 3 Low Level Design
-Describe the low-level design for each of the system components identified in the previous section. For your component, you should provide details in the following UML diagrams to show its internal structure.
 
 ### 3.1 Class Diagram
-In the case of an OO design, the internal structure of a software component would typically be expressed as a UML class diagram that represents the static class structure for the component and their relationships (association, aggregation, generalization, etc.) Be sure to include a copy of your UML diagram.
-
+Please see 3_1-ClassDiagram.odg.
 
 ### 3.2 Sequence Diagram
 This diagram shows details of how and in which order objects within a component interact with one another.
